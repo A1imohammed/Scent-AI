@@ -1,11 +1,10 @@
-streamlit
+streamlit==1.35.0
 pandas
 numpy
 scikit-learn
 python-dotenv
 
-# Force CPU-only torch
+--extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.2.2
---index-url https://download.pytorch.org/whl/cpu
 
 sentence-transformers
