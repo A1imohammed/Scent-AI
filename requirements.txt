@@ -8,3 +8,4 @@ python-dotenv
 torch==2.11.0+cpu
 
 sentence-transformers
+duckduckgo-search
