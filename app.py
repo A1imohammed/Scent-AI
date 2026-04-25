@@ -8,6 +8,8 @@ from sklearn.linear_model import LogisticRegression
 from dotenv import load_dotenv
 import os
 
+port = int(os.environ.get("PORT", 8501))
+
 load_dotenv()
 
 HF_TOKEN = os.getenv("HF_TOKEN")
